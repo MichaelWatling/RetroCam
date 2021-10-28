@@ -1,0 +1,243 @@
+/* Colours
+
+#EF3726
+#000000
+#1A8BD9
+#FFB600
+#FF8201
+#FFFFFF
+
+fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nova Mono', monospace;
+*/
+
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15% 3% 15% !important;
+}
+
+
+#header{
+    color: #fff;
+    background-color: #EF3726;
+}
+
+#header h1{
+    
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.andrew-img{
+    width: 50%;
+    transform: rotate(10deg) !important;
+    margin-left: 25%;
+}
+
+/* Navagation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem !important;
+}
+
+
+.navbar-brand{
+    font-family: 'Nova Mono', monospace;
+    font-size: 3rem !important;
+    font-weight: 200 !important;
+}
+
+.nav-item{
+    padding: 0 18px !important;
+}
+
+.nav-link{
+    font-size: 1.5rem !important;
+    font-family: 'Nova Mono', monospace;
+    font-weight: 100 !important;
+}
+
+.nav-link:hover{
+    color: #FFB600 !important;
+}
+
+/* Download Buttons */
+
+.dowload-button{
+    margin: 5% 3% 5% 0 !important;
+}
+
+/* Features */
+
+
+#features{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-icons{
+    color: #1A8BD9;
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.feature-icons:hover{
+    color: #EF3726;
+}
+
+#features h3{
+    color: #000000;
+    font-family: 'Nova Mono', monospace;
+    font-size: 3rem;
+    font-weight: 600!important;
+}
+
+#features p{
+    color: #757575;
+    font-size: 1.5rem;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    color: #ffffff;
+    background-color: #1A8BD9;
+    text-align: center;
+
+}
+
+#testimonials h2{
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.testimonial-image{
+    width:10%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #1A8BD9;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    padding: 3% 3%;
+    width: 15%;
+}
+
+.carousel-item{
+    padding: 3% 15% 3% 15% !important;
+}
+
+/* Pricing */
+
+#pricing h2{
+    line-height: 2;
+    font-size: 3.5rem;
+}
+
+#pricing p{
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.pricing-header{
+    color: #000000;
+    line-height: 1.5;
+    padding-bottom:1.5rem ;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.pricing-card{
+    padding: 2% 3%;
+}
+
+.model-pack{
+    color: #ffffff;
+    background-color:#EF3726 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.model-button{
+    color: #EF3726!important;
+    background-color: white !important ;
+    border-color: #EF3726 !important;
+}
+
+.model-button:hover{
+    background-color: #EF3726 !important;
+    color:white !important;
+}
+
+.art-pack{
+    color: #ffffff;
+    background-color:#FF8201 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.art-button{
+    color: #FF8201!important;
+    background-color: white !important ;
+    border-color: #FF8201 !important;
+}
+
+.art-button:hover{
+    background-color: #FF8201 !important;
+    color:white !important;
+}
+.photo-pack{
+    color: #ffffff;
+    background-color:#1A8BD9 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.photo-button{
+    color: #1A8BD9!important;
+    background-color: white !important ;
+    border-color: #1A8BD9 !important;
+}
+
+.photo-button:hover{
+    background-color: #1A8BD9 !important;
+    color:white !important;
+}
+
+#download{
+    background-color: #FF8201 !important;
+    text-align: center;
+}
+
+#download h1{
+    font-family: 'Nova Mono', monospace;
+    font-size: 3rem;
+}
+
+footer{
+    text-align: center;
+    padding: 3rem
+}
+
+footer a{
+    color:#1A8BD9;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.5rem
+
+}
