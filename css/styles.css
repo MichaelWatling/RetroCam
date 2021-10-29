@@ -37,10 +37,7 @@ a{
     font-weight: 100 !important;
 }
 
-p{
-    font-size: 1rem !important;
-    
-}
+
 
 .container-fluid{
     padding: 3% 15% 3% 15% !important;
@@ -281,12 +278,12 @@ p{
         font-size: 2.5rem !important;
     }
 
-    .carousel-header{
+    .carousel-header, .dowload-retro-heading{
         font-size: 2rem;
     }
 
-    .dowload-retro-heading{
-        font-size: 2rem;
+    .testimonial-image{
+        width: 30%;
     }
 }
 
@@ -295,25 +292,21 @@ p{
         text-align: center;
     }
 
-    h1{
+    h1, .carousel-header, .dowload-retro-heading{
         font-size: 2rem !important;
     }
 
-    .carousel-header{
-        font-size: 2rem !important;
+    em{
+        font-size: 0.5rem;
     }
 
-    .pricing-header{
-        line-height: 2;
-        font-size: 2rem;
-    }
-    .pricing-price{
+    .pricing-header, .pricing-price{
         line-height: 2;
         font-size: 2rem;
     }
 
-    .dowload-retro-heading{
-        font-size: 2rem;
+    .testimonial-image{
+        width: 30%;
     }
-    
+   
 }
