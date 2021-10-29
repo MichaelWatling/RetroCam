@@ -39,7 +39,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+
+    <!-- Header Section, Website top in red -->
     <section id="header">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -58,21 +61,21 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
+                <a class="nav-link header-tag" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
+                <a class="nav-link header-tag" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#download">Download</a>
+                <a class="nav-link header-tag" href="#download">Download</a>
               </li>
             </ul>
           </div>
         </nav>
 
         <div class="row">
-          <div class="col-lg-6">
-            <h1>Retro Cameras for those who yern for retro pictures.</h1>
+          <div class="col-lg-6 heading-row">
+            <h1 class="header-large">Retro Cameras for those who yern for retro pictures.</h1>
             <button type="button" class="btn btn-dark btn-lg dowload-button">
               <i class="fab fa-apple"></i> Download
             </button>
@@ -84,15 +87,19 @@
             </button>
           </div>
           <div class="col-lg-6">
+            <a href="https://unsplash.com/@andydavie">
             <img
               class="andrew-img"
               src="./images/Pol.png"
               alt="Andrew Retro Camera"
             />
+          </a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Features Section including hover icons -->
 
     <section id="features">
       <div class="container-fluid">
@@ -100,28 +107,30 @@
           <div class="col-lg-4">
             <div class="feature-box">
               <i class="far fa-check-circle feature-icons"></i>
-              <h3>Easy to use</h3>
-              <p>Find retro cameras in seconds.</p>
+              <h2 class="feature-headings">Easy to use</h2>
+              <p class="feature-discription">Find retro cameras in seconds.</p>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="feature-box">
               <i class="fas fa-camera-retro feature-icons"></i>
-              <h3>Our brands</h3>
-              <p>We only carry high end retro brands e.g. Fujifilm.</p>
+              <h2 class="feature-headings">Our brands</h2>
+              <p class="feature-discription">We only carry high end retro brands e.g. Fujifilm.</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="feature-box">
               <i class="fas fa-heartbeat feature-icons"></i>
-              <h3>Love at first snap</h3>
-              <p>Love every camera you use, or return for a full refund.</p>
+              <h2 class="feature-headings">Love at first snap</h2>
+              <p class="feature-discription">Love every camera you use, or return for a full refund.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Testimonials Section including carousel blue area -->
 
     <section id="testimonials">
       
@@ -132,39 +141,45 @@
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <h2>
+                  <h2 class="carousel-header">
                     RetroCam has improved my selfie game. Now my Instgram can
                     have the retro aesthetic I've always wanted.
                   </h2>
+                  <a href="https://unsplash.com/@imlakshyaa">
                   <img
                     class="testimonial-image"
                     src="./images/Lakshya.png"
                     alt=""
                   />
+                </a>
                   <em>Lakshya, Indore - India</em>
                 </div>
                 <div class="carousel-item">
-                  <h2>
+                  <h2 class="carousel-header">
                     RetroCam has changed the way I approach photography,
                     and I cannot wait until my next camera arrives!
                   </h2>
+                  <a href="https://unsplash.com/@majestical_jasmin">
                   <img
                     class="testimonial-image"
                     src="./images/Jasmin.png"
                     alt=""
                   />
+                </a>
                   <em>Jasmin, Toronto, Ontario - Canada</em>
                 </div>
                 <div class="carousel-item">
-                  <h2>
+                  <h2 class="carousel-header">
                     As a professional I love getting two new cameras a month to add to my
                     growing collection.
                   </h2>
+                  <a href="https://unsplash.com/@taiscaptures">
                   <img
                     class="testimonial-image"
                     src="./images/tai.png"
                     alt=""
                   />
+                </a>
                   <em>Tia, North Carolina - USA</em>
                 </div>
               </div>
@@ -195,7 +210,7 @@
             </div>
     </section>
 
-    <!-- Press -->
+    <!-- Press bottom of testimonals blue area-->
 
     <section id="press">
       <img class="press-logo" src="./images/TechCrunch.png" alt="tc-logo" />
@@ -208,9 +223,11 @@
       <img class="press-logo" src="./images/mashable.png" alt="mashable-logo" />
     </section>
 
-    <section id="pricing">
-      
 
+
+<!-- Pricing area including cards-->
+
+    <section id="pricing">
       <div class="container-fluid">
         <div class="row text-center">
           <div class="col-lg-12">
@@ -221,12 +238,12 @@
         <div class="col-lg-4 col-md-6">
           <div class="card mb-4 rounded-3 shadow-sm pricing-card">
             <div class="card-header model-pack">
-              <h3>Model Package</h3>
+              <h3 class="pricing-title">Model Package</h3>
             </div>
             <div class="card-body">
-              <h2>Free</h2>
-            <p>See our range of cameras to buy</p>
-            <p>Perfect for Instagram</p>
+              <h2 class="pricing-price">Free</h2>
+            <p class="price-discription">See our range of cameras to buy</p>
+            <p class="price-discription">Perfect for Instagram</p>
             <button type="button" class="w-50 btn btn-lg model-button">Sign Up</button>
     
             </div>
@@ -235,12 +252,12 @@
         <div class="col-lg-4 col-md-6">
           <div class="card mb-4 rounded-3 shadow-sm pricing-card">
             <div class="card-header art-pack">
-              <h3>Artsy Package</h3>
+              <h3 class="pricing-title">Artsy Package</h3>
             </div>
             <div class="card-body">
-              <h2>$40 / mo</h2>
-              <p>Get one random free camera worth $50 a month</p>
-              <p>Perfect for enthusiasts</p>
+              <h2 class="pricing-price">$40 / mo</h2>
+              <p class="price-discription">Get one random free camera worth $50 a month</p>
+              <p class="price-discription">Perfect for enthusiasts</p>
               <button type="button" class="w-50 btn btn-lg art-button">Sign Up</button>
             </div>
           </div>
@@ -248,12 +265,12 @@
         <div class="col-lg-4 col-md-12">
           <div class="card mb-4 rounded-3 shadow-sm pricing-card">
             <div class="card-header photo-pack">
-              <h3>Photographer Package</h3>
+              <h3 class="pricing-title">Photographer Package</h3>
             </div>
             <div class="card-body">
-              <h2>$80 / mo</h2>
-            <p>Pick two free cameras worth $50 a month</p>
-            <p>Perfect for professionals</p>
+              <h2 class="pricing-price">$80 / mo</h2>
+            <p class="price-discription">Pick two free cameras worth $50 a month</p>
+            <p class="price-discription">Perfect for professionals</p>
             <button type="button" class="w-50 btn btn-lg photo-button">Sign Up</button>
           </div>
         </div>
@@ -261,11 +278,13 @@
   </div>
     </section>
 
+
+    <!-- Download area orange section-->
     <section id="download">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
-              <h1>Get Retro Today!</h1>
+              <h1 class="dowload-retro-heading">Get Retro Today!</h1>
           </div>
         </div>
       <div class="row">
@@ -289,22 +308,23 @@
       </div>
     </div>
     </section>
-
+  
+    <!-- Footer Area -->
 
     <footer id="footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <p>© Copyright 2021 Michael Watling</p>
+            <a  class="footer-tag" href="https://twitter.com/TheMWProgram"><i class="fab fa-twitter"></i></a>
+
+            <a  class="footer-tag" href="mailto:michael.watling@hotmail.com"><i class="fas fa-envelope"></i></a>
+
+            <a  class="footer-tag" href="https://github.com/MichaelWatling"><i class="fab fa-github"></i></a>
+
+            <a  class="footer-tag" href="https://www.linkedin.com/in/michael-watling-086565109/"><i class="fab fa-linkedin"></i></a>
           </div>
           <div class="col-lg-12">
-            <a href="https://twitter.com/TheMWProgram"><i class="fab fa-twitter"></i></a>
-
-            <a href="mailto:michael.watling@hotmail.com"><i class="fas fa-envelope"></i></a>
-
-            <a href="https://github.com/MichaelWatling"><i class="fab fa-github"></i></a>
-
-            <a href="https://www.linkedin.com/in/michael-watling-086565109/"><i class="fab fa-linkedin"></i></a>
+            <p class="copyright">© Copyright 2021 Michael Watling</p>
           </div>
         </div>
       </div>
@@ -312,19 +332,3 @@
   </body>
 </html>
 
-<!-- Links
-
-    Andrew Davie - https://unsplash.com/@andydavie
-    Jasmin Chew - https://unsplash.com/@majestical_jasmin
-    Tai's Captures - https://unsplash.com/@taiscaptures
-    Lakshya Jain - https://unsplash.com/@imlakshyaa
-
-    Cameras
-
-    Bart van Dijk - https://unsplash.com/@bart_van_dijk
-    Alexander Andrews - https://unsplash.com/@alex_andrews
-    Denise Jans - https://unsplash.com/@dmjdenise
-    Alexander Wende - https://unsplash.com/@alexwende
-
-
--->
